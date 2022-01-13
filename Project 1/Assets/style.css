@@ -1,0 +1,119 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    /* background-color: aqua; */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    /* margin-top: 10px; */
+}
+
+#Div1 {
+    display: flex;
+    background-color: #193a43;
+    width: 100%;
+    /* justify-content: space-around; */
+    gap: 3rem;
+    justify-content: space-between;
+    /* padding: 1rem 1.5rem; */
+}
+
+.Div1Class {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    color: white;
+}
+
+.Register {
+    margin-left: 20rem;
+}
+.Register1 {
+    padding-left: 4px;
+}
+
+.Span1 {
+    color: white;
+    padding-left: 2rem;
+}
+
+
+
+
+.form-select {
+    background-color: #193a43;
+    text-decoration: none;
+    color: white;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    margin-left: 10px;
+    padding-top: 3px;
+    
+}
+.SocialMedia {
+    border-left: 1px solid white;
+    margin-right: 1rem ;
+    
+}
+
+.fa {
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    
+}
+
+.fa:hover, .Div1Class:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.Logo {
+    text-decoration: none;
+    color: black;
+    font-family: 'The Nautigal', cursive;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.Logo:hover, .fa-search:hover, .fa-shopping-bag:hover, .fa-list:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.fa-search, .fa-shopping-bag, .fa-list{
+    color: #000;
+    size: 4rem;
+} 
+
+ul {
+    display: flex;
+    margin-left: 10rem;
+    padding-top: 1.5rem;
+    
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #193a43;
+}
+
+
+li{
+   padding-left: 3rem;
+   font-family: 'Dosis', sans-serif;
+}
